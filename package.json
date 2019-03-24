@@ -1,0 +1,45 @@
+{
+  "name": "element-ui-wheel",
+  "version": "1.0.0",
+  "description": "Reinventing the wheel for learning",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "create": "node ./src/utils/tools/create_page.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Lynn Yang",
+  "license": "ISC",
+  "peerDependencies": {
+    "vue": "2.5.16"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^0.11.2",
+    "handlebars": "^4.0.11",
+    "html-webpack-plugin": "^2.30.1",
+    "humps": "^2.0.1",
+    "inquirer": "^4.0.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "vue": "^2.5.16",
+    "vue-loader": "^13.3.0",
+    "vue-resource": "^1.3.4",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  }
+}
