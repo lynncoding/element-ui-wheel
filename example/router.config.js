@@ -1,5 +1,6 @@
-const app = r => require.ensure([], () => r(require('./index.vue')), 'index')
-const example = r => require.ensure([], () => r(require('./pages/example.vue')), 'example')
+import app from './index.vue'
+import example from './pages/example.vue'
+import tag from './pages/tag.vue'
 // --------------- 导入测试页面（请不要修改此部分代码） ------------
 // -----------------------------------------------------------
 export default {
@@ -15,6 +16,11 @@ export default {
       name: '示例',
       path: '/example',
       component: example
+    },
+    {
+      name: '标签',
+      path: '/tag',
+      component: tag
     }
   ]
 }

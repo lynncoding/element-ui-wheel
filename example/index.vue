@@ -29,6 +29,14 @@ export default {
           description: '示例',
           auther: '',
           udpateTime: '2019-03-22 11:22:22'
+        },
+        {
+          path: '/tag',
+          name: 'Tag',
+          title: '标签',
+          description: 'tag',
+          auther: '',
+          udpateTime: '2019-03-22 11:22:22'
         }
       ]
     }

@@ -1,11 +1,13 @@
 import example from '../packages/example'
+import LyTag from '../packages/tag'
 // --------------- 导入组件（请不要修改此部分代码） ---------------
 // -----------------------------------------------------------
 
 const components = [
   // --------------- 添加组件到数组中（请不要修改此部分代码） ---------
   // -----------------------------------------------------------
-  example
+  example,
+  LyTag
 ]
 
 const install = function (Vue, opts = {}) {
