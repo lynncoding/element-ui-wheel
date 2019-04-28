@@ -1,5 +1,6 @@
 import example from '../packages/example'
 import LyTag from '../packages/tag'
+import LyPercentageBar from '../packages/percentage-bar'
 // --------------- 导入组件（请不要修改此部分代码） ---------------
 // -----------------------------------------------------------
 
@@ -7,7 +8,8 @@ const components = [
   // --------------- 添加组件到数组中（请不要修改此部分代码） ---------
   // -----------------------------------------------------------
   example,
-  LyTag
+  LyTag,
+  LyPercentageBar
 ]
 
 const install = function (Vue, opts = {}) {

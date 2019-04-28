@@ -37,6 +37,14 @@ export default {
           description: 'tag',
           auther: '',
           udpateTime: '2019-03-22 11:22:22'
+        },
+        {
+          path: '/percentagebar',
+          name: 'PercentageBar',
+          title: '可拖拽占比条',
+          description: 'percentagebar',
+          auther: '',
+          udpateTime: '2019-03-22 11:22:22'
         }
       ]
     }
