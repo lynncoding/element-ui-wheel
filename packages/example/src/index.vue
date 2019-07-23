@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="hello-world">hello world</h1>
-    <current-user v-slot:default="slotProps">{{slotProps.user.firstName}}</current-user>
+    <current-user v-slot:default="slotProps"><div class="red">{{slotProps.user.firstName + ' ' + slotProps.user.lastName}}</div></current-user>
   </div>
 </template>
 
@@ -24,5 +24,8 @@ export default {
   .hello-world
   {
     font-size: 22px;
+  }
+  .red {
+    color: red;
   }
 </style>
