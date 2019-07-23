@@ -12,6 +12,6 @@ export default {
 
 <style>
 .percentage-bar-demo {
-  width: 500px;
+  width: 700px;
 }
 </style>
